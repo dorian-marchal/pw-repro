@@ -1,0 +1,11 @@
+version: "3"
+services:
+  playwright:
+    image: mcr.microsoft.com/playwright:v1.16.2-focal
+    working_dir: /opt/app
+    volumes:
+      - node-modules:/opt/app/node_modules
+      - .:/opt/app:delegated
+
+volumes:
+  node-modules: {}

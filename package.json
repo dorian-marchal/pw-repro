@@ -1,0 +1,10 @@
+{
+  "name": "pw-repro",
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx playwright test"
+  }
+}
